@@ -1,0 +1,24 @@
+{
+  "name": "frontend-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "yarn build && node server.js",
+    "specs": "web-test-runner \"specs/**/*.spec.js\" --node-resolve",
+    "watch-serve": "nodemon -x yarn serve -w src -e json,js,html,css",
+    "watch-specs": "nodemon -x yarn specs"
+  },
+  "dependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@open-wc/testing": "^3.0.3",
+    "@web/test-runner": "^0.13.22",
+    "esbuild": "^0.14.2",
+    "express": "^4.17.1",
+    "glob": "^7.2.0",
+    "lit": "^2.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
