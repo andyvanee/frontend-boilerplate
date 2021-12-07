@@ -1,5 +1,9 @@
 # Frontend Boilerplate
 
+A basic boilerplate for fronted dev using Lit, esbuild and Web Test Runner
+
+<https://github.com/andyvanee/frontend-boilerplate>
+
 -   Lit <https://lit.dev/docs/>
 -   esbuild <https://esbuild.github.io/>
 -   chai <https://www.chaijs.com/api/bdd/>
